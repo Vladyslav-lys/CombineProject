@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<dict>
+		<key>testDownload</key>
+		<string>https://jobapp-bucket-dev-content.s3.eu-central-1.amazonaws.com/dev/</string>
+		<key>testUpload</key>
+		<string>https://httpbin.org/</string>
+		<key>testData</key>
+		<string>https://randomuser.me/</string>
+		<key>baseUrl</key>
+		<string>https://randomuser.me/</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>testDownload</key>
+		<string>https://jobapp-bucket-dev-content.s3.eu-central-1.amazonaws.com/dev/</string>
+		<key>testUpload</key>
+		<string>https://httpbin.org/</string>
+		<key>testData</key>
+		<string>https://randomuser.me/</string>
+		<key>baseUrl</key>
+		<string>https://randomuser.me/</string>
+	</dict>
+</dict>
+</plist>
